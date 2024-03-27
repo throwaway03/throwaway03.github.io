@@ -1,0 +1,20 @@
+body {
+    background-color: gray;
+}
+
+#content {
+    display: flex;
+}
+
+#recentTracksContainer {
+    flex: 1;
+    margin-right: 1px;
+}
+
+#videoContainer {
+    flex: 1;
+}
+
+.icon {
+    cursor: pointer;
+}
