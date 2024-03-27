@@ -7,7 +7,7 @@ const from = ''; // Beginning timestamp of a range (optional)
 const to = ''; // End timestamp of a range (optional)
 const extended = 1; // Includes extended data in each track (optional)
 
-const apiUrl = `http://ws.audioscrobbler.com/2.0/?method=${method}&api_key=${apiKey}&user=${username}&limit=${limit}&page=${page}&from=${from}&to=${to}&extended=${extended}&format=json`;
+const apiUrl = `https://ws.audioscrobbler.com/2.0/?method=${method}&api_key=${apiKey}&user=${username}&limit=${limit}&page=${page}&from=${from}&to=${to}&extended=${extended}&format=json`;
 
 // Function to fetch recent tracks
 function fetchData() {
