@@ -92,7 +92,7 @@ fetchData()
 async function searchOnYouTube(artist, trackName) {
   try {
     const query = `${artist} - ${trackName}`;
-    const apiKey = 'AIzaSyDCu-hwM4iaSvnIcTgoGzVxWb3JevcArRo';
+    const apiKey = '';
     const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=${encodeURIComponent(query)}&key=${apiKey}`;
 
     const response = await fetch(apiUrl);
